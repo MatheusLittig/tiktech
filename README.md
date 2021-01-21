@@ -14,4 +14,4 @@ TikTech is a study application that have the a unique and exclusively objective:
 
 ## Authors
 
-* **Matheus Littig** - *FullStack development - [MatheusLittig](https://github.com/MatheusLittig)
+* **Matheus Littig** - *FullStack Development and UI/UX Design* - [MatheusLittig](https://github.com/MatheusLittig)
