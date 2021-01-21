@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.png" height="100%" width="100%" alt="TikTech" />
+  <img src="./header_tiktech.png" height="100%" width="100%" alt="TikTech" />
 </p>
 
 # TikTech
