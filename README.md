@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./header.png" height="640" width="168" alt="TikTech" />
+</p>
+
 # TikTech
 
 A new modern Developers Social Media. 
