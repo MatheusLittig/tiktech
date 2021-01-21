@@ -14,7 +14,7 @@ TikTech is a study application that have the a unique and exclusively objective:
 
 * **Backend:** Graphql, TypeOrm, Postgres, Apollo Server and Node.js
 * **Frontend:** Next.js, SWR Hooks and Styled Components
-* **UI/UX:** Figma - [AccessHere](https://www.figma.com/file/vpcofy0eDV0Qnjtmm96lRn/Prototype?node-id=1%3A2) 
+* **UI/UX:** Figma - [Access Here](https://www.figma.com/file/vpcofy0eDV0Qnjtmm96lRn/Prototype?node-id=1%3A2) 
 
 ## Authors
 
