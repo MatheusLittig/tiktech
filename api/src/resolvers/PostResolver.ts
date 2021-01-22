@@ -1,11 +1,10 @@
+import Post from '../models/Post'
 import { Resolver, Query } from 'type-graphql'
 
 @Resolver()
-class BookResolver {
-  @Query(() => String)
-  hello() {
-    return 'world'
+export default class PostResolver {
+  @Query(() => [Post])
+  posts() {
+    return Post.find()
   }
 }
-
-export default BookResolver

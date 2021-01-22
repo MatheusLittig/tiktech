@@ -6,11 +6,12 @@ import { ApolloServer } from 'apollo-server'
 import { buildSchema } from 'type-graphql'
 
 import PostResolver from './resolvers/PostResolver'
+import UserResolver from './resolvers/UserResolver'
 
 async function main(): Promise<void> {
   const connection = await createConnection()
   const schema = await buildSchema({
-    resolvers: [PostResolver]
+    resolvers: [PostResolver, UserResolver]
   })
 
   const server = new ApolloServer({ schema })
