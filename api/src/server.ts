@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
 import 'reflect-metadata'
 import { createConnection } from 'typeorm'
 import { ApolloServer } from 'apollo-server'

@@ -4,7 +4,7 @@ import {
   BaseEntity,
   PrimaryGeneratedColumn,
   Column,
-  CreateDateColumn,
+  // CreateDateColumn,
   JoinColumn,
   ManyToOne
 } from 'typeorm'
@@ -34,20 +34,15 @@ export default class Post extends BaseEntity {
   @Column()
   likes: number
 
-  // @Field(() => Post)
-  // @ManyToOne(() => Post)
-  // @Column()
-  // comments: Post[]
-
   @Field(() => Number)
   @Column()
   shares: number
 
-  @Field(() => Date)
-  @CreateDateColumn()
-  created_at: Date
+  // @Field(() => Date)
+  // @CreateDateColumn()
+  // created_at: Date
 
-  @Field(() => Date)
-  @CreateDateColumn()
-  updated_at: Date
+  // @Field(() => Date)
+  // @CreateDateColumn()
+  // updated_at: Date
 }
